@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container-fluid">
+  <div class="row mx-4">
+    <div class="col">
+      <div class="card mt-4" style="width: 18rem;">
+        <img src="https://ajdigital.co.uk/wp-content/uploads/2022/03/banner-redimensionat.jpeg" style="width: auto; height: 195px;" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Personal website</h5>
+          <p class="card-text">Website I have created to show off my skills</p>
+          <a href="{{ url_for('index') }}" class="btn btn-primary">Link</a>
+          <a href="{{ url_for('index') }}" class="btn btn-primary">Github</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card mt-4" style="width: 18rem;">
+        <img src="https://img.redro.pl/plakaty/international-morse-code-700-179202798.jpg" style="width: auto; height: 195px;" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Morse code translator</h5>
+          <p class="card-text">Quick project I have made as a placeholder</p>
+          <a href="{{ url_for('morse') }}" class="btn btn-primary">Link</a>
+          <a href="{{ url_for('morse') }}" class="btn btn-primary">Github</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card mt-4" style="width: 18rem;">
+        <img src="https://ajdigital.co.uk/wp-content/uploads/2022/03/banner-redimensionat.jpeg" style="width: auto; height: 195px;" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Link</a>
+          <a href="#" class="btn btn-primary">Github</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
