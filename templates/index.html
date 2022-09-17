@@ -10,7 +10,7 @@
 
   <body style="background-color:black;">
 
-  <div class="mx-auto pt-3 logo text-center bg-color-blue" >Hi, I am Piotr and welcome to my site,{{name}} ! </div>
+  <div class="mx-auto pt-3 logo text-center bg-color-blue" >Hi, I am Piotr and welcome to my site,{% if name %} {{name}} {% else %} Stranger {% endif %} ! </div>
   <hr class="border border-success opacity-50">
     <div class="container">
         <div class="col-8 mx-auto">
